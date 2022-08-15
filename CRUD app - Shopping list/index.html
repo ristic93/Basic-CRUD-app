@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS bootstrap only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Bootstrap icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<link rel="stylesheet" href="style.css">
+
+    <title>Shopping list</title>
+    
+</head>
+<body>
+    
+<div class="container mt-5 text-center">
+    <h1 class="display-1 text-center mb-5 fw-bold">Shopping list</h1>
+
+    <div class="row">
+        <div class="col-12">
+            <h2 class="p-3 fs-1 fw-bold mt-5">Enter a grocery: </h2>
+            <input type="text" class="input-grocery border border-dark border-2 m-2 fs-4">
+            <button class="btn-add btn btn-primary fw-bold ms-4 fs-5">Add to list <i class="bi bi-cart4"></i></button>
+            <button class="btn-save btn btn-success fs-5" hidden>Save <i class="bi bi-save2"></i></button>
+            <button class="btn-back btn btn-danger fs-5" hidden>Back <i class="bi bi-backspace-fill"></i></button>
+        </div>
+        
+        <h2 class="display-5 fw-bold mt-5">Groceries list <i class="bi bi-list-stars fs-1"> <button class="btn-clear btn btn-danger mb-3 fs-5 d-inline">Clear List <i class="bi bi-x-lg"></i></button></i></h2>
+        
+        <div class="col-12 list">
+            
+            <table class="table table-striped table-hover table-success">
+              <tbody class="table-list table-body overflow-scroll">
+                <!-- <tr>
+                        <th scope="row">1</th>
+                        <td>Namirnica</td>
+                        <td><button class="btn btn-danger">X<button><td>
+                    </tr> -->
+               
+              </tbody>
+            </table>
+        </div>
+    </div>
+    
+</div>
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script src="./app.js"></script>
+</body>
+</html>
