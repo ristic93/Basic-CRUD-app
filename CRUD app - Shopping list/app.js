@@ -5,6 +5,7 @@ const btnSaveElement = document.querySelector('.btn-save');
 const btnBackElement = document.querySelector('.btn-back');
 const btnClearElement = document.querySelector('.btn-clear');
 
+// Proba samo da vidim da li i kako radi
 
 const list = [];
 let editId = null;
